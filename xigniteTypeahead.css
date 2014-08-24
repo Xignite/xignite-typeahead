@@ -1,0 +1,37 @@
+.xigniteTypeahead-dropdown {
+	font-family: Helvetica, Arial, sans-serif;
+	list-style: none;
+	position: absolute;
+	border: 1px #ccc solid;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	background-clip: padding-box;
+	padding: 5px 0;
+	margin-top: 0;
+	z-index: 999;
+	background-color: #fff;
+}
+
+.xigniteTypeahead-dropdown-item {
+	padding: 6px 10px;
+	min-width: 300px;
+	font-size: 13px;
+}		
+		
+.xigniteTypeahead-dropdown-item.selected {
+	cursor: pointer;
+	background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+	color: #fff;
+}
+
+.xigniteTypeahead-dropdown-item-tag {
+	float: right;
+	font-size: 11px;
+	font-weight: bold;
+	color: #aaa;
+}
+
+.xigniteTypeahead-dropdown-text {
+	padding: 6px 10px;
+	font-size: 11px;
+	font-style: italic;
+}
