@@ -8,8 +8,8 @@ Project dependencies:
 1) Get the js and css files. 
 
 2) Get the dependencies (jQuery 1.x is recommended if you intend to support IE 6-8):
-    -jQuery http://jquery.com/download/
-    -jQueryUI http://jqueryui.com/download/.  
+    -jQuery http://jquery.com/download/  
+    -jQueryUI http://jqueryui.com/download/
 
 3) Create an arbitrary input element in your HTML.  The data-xignite-typeahead-key is required:
 
