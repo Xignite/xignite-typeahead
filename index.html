@@ -34,18 +34,16 @@
           <h3>
 <a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h3>
 
-<p>1) Get the js and css files from <a href="https://github.com/Xignite/xignite-typeahead">https://github.com/Xignite/xignite-typeahead</a>.</p>
-
-<p>2) Get the dependencies (jQuery 1.x is recommended if you intend to support IE 6-8):<br><a href="http://jquery.com/download/">jQuery</a><br><a href="http://jqueryui.com/download/">jQueryUI</a>  </p>
-
-<p>3) Create an arbitrary input element in your HTML.  The data-xignite-typeahead-key must be specified if a keyParam (in step 4) is defined (required for XigniteSearch):</p>
-
-<pre><code>&lt;input type="text" class="xignite-typeahead" data-xignite-typeahead-key="XigniteGlobalQuotes.GetGlobalDelayedQuote.Identifier" /&gt;
+<ol>
+<li><p>Get the js and css files from <a href="https://github.com/Xignite/xignite-typeahead">https://github.com/Xignite/xignite-typeahead</a>.</p></li>
+<li><p>Get the dependencies (jQuery 1.x is recommended if you intend to support IE 6-8):<br><a href="http://jquery.com/download/">jQuery</a><br><a href="http://jqueryui.com/download/">jQueryUI</a>  </p></li>
+<li><p>Create an arbitrary input element in your HTML.  The data-xignite-typeahead-key must be specified if a keyParam (in step 4) is defined (required for XigniteSearch):</p></li>
+</ol><pre><code>&lt;input type="text" class="xignite-typeahead" data-xignite-typeahead-key="XigniteGlobalQuotes.GetGlobalDelayedQuote.Identifier" /&gt;
 </code></pre>
 
-<p>4) Invoke the widget in javascript like so:</p>
-
-<pre><code>&lt;script type="text/javascript"&gt;
+<ol>
+<li>Invoke the widget in javascript like so:</li>
+</ol><pre><code>&lt;script type="text/javascript"&gt;
     $(".xignite-typeahead").xigniteTypeahead({ api: "http://search.xignite.com/Search/Suggest", keyParam: "parameter", q: "term" });
 &lt;/script&gt;
 </code></pre>
