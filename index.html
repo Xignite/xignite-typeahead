@@ -41,7 +41,7 @@
 <li><a href="http://jquery.com/download/">jQuery</a></li>
 <li><p><a href="http://jqueryui.com/download/">jQueryUI</a></p></li>
 </ul><ol>
-<li>Create an arbitrary input element in your HTML.  The data-xignite-typeahead-key must be specified if a keyParam (in step 4) is defined (required for XigniteSearch):</li>
+<li>Create an arbitrary input element in your HTML.  The <strong>data-xignite-typeahead-key</strong> is used as an optional way to provide a contextual parameter value to the API.  It must be specified if a <strong>keyParam</strong> (in step 4) is defined.  In our case, the keyParam field <strong>is</strong> required for our API, in this case XigniteSearch...so we will just set it:</li>
 </ol><pre><code>&lt;input type="text" class="xignite-typeahead" data-xignite-typeahead-key="XigniteGlobalQuotes.GetGlobalDelayedQuote.Identifier" /&gt;
 </code></pre>
 
